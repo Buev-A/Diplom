@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1ec0484-26fb-4c7c-b471-74af146d5261">
+  <producedTypes>
+    <refType typeId="90a9586f-45c5-47ef-99a9-1115c9a0ca1c" valueTypeId="179186f1-aab5-46af-b6ff-16bddcb84ff0"/>
+    <listType typeId="4bde84c6-259d-431c-9d8e-be8cd6301272" valueTypeId="c1efd3f6-6bef-4488-89de-52e2bc057b92"/>
+    <managerType typeId="e6deaf63-3b34-480b-b1c1-1e205fb90565" valueTypeId="b4e564da-6efb-422e-8204-8349a66b2746"/>
+  </producedTypes>
+  <name>ВКМ_КатегорииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории сотрудников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="afd192e8-0439-421b-8f76-c2a1dcd41276">
+    <name>Специалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dbc214b-0ec8-4bc3-80a3-03c749b80eb3">
+    <name>АдминистративныйПерсонал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административный персонал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

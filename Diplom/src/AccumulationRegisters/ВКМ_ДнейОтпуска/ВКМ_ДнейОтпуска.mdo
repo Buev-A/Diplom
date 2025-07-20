@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe43220b-965d-4dba-a226-4bc5d3b9df5a">
+  <producedTypes>
+    <selectionType typeId="d3a01a68-8852-435f-af16-da17d71dc467" valueTypeId="ec1b2a68-0dca-43eb-b909-598299778dc3"/>
+    <listType typeId="61e0bd20-a125-4b70-ac04-896efc760be5" valueTypeId="b3a4c7f6-5dc2-4f1b-bf60-ef7244729a06"/>
+    <managerType typeId="1d85a1b0-1465-4acf-8031-a2b0301309c7" valueTypeId="ef3f3280-d6e1-4385-9d1d-44be76f91855"/>
+    <recordSetType typeId="5da9b77f-4523-4f0d-b267-043268dfe482" valueTypeId="b328ed98-bbe9-4b1f-b421-2d8b00eaf466"/>
+    <recordKeyType typeId="6fcbad0f-9dde-48b7-bfb3-ad3a8385213d" valueTypeId="feb1ffff-932d-48b4-8533-b0460a8668dd"/>
+    <recordType typeId="294f3bf7-90cf-4bda-a518-6a0a824bb47b" valueTypeId="9650007c-6fe4-4495-980f-1cf68e899187"/>
+  </producedTypes>
+  <name>ВКМ_ДнейОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дней отпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d26c1bbc-e733-4d4e-ac8c-ccad7e3752ef">
+    <name>ДнейОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отпуска</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0f945bad-fc1d-4084-a00e-e2e0aed770c4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

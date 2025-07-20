@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17473114-88bc-4381-8b30-70744dc53215">
+  <producedTypes>
+    <managerType typeId="b46adbea-39e4-4dad-8625-31a6b99bccd0" valueTypeId="af1470b8-5a48-4fba-b29b-248c73b37b2c"/>
+    <valueManagerType typeId="e8ccb14b-7f95-4139-bf53-a235c5beda47" valueTypeId="c7c33b07-84a8-461d-859a-20ddaf3d573f"/>
+    <valueKeyType typeId="00ef8517-3c33-4fa0-b66a-fb2ebd3be185" valueTypeId="f6e1533b-d3ee-4d33-b2de-9424beb956a7"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураАбонентскаяПлата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура абонентская плата</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ВидНоменклатуры</name>
+    <value xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыНоменклатуры.EnumValue.Товар</value>
+    </value>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

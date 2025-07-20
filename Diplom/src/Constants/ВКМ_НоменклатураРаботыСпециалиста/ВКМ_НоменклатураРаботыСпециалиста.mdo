@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c07d7117-b360-4e79-8cfb-dbeab915f1e7">
+  <producedTypes>
+    <managerType typeId="b130b32f-425e-47ee-9727-311d7ff283dc" valueTypeId="6f3faefe-7434-473b-bcb9-ce0bc06032f3"/>
+    <valueManagerType typeId="831d64d8-274d-4973-b440-d40c33a469de" valueTypeId="a7ec794b-61c6-478a-877b-bdeb55d80687"/>
+    <valueKeyType typeId="4836cc7a-b954-47bf-82c0-fec15eb0a79d" valueTypeId="b2cb2764-555c-4b80-bd27-eb56f80071bd"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураРаботыСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура работы специалиста</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ВидНоменклатуры</name>
+    <value xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыНоменклатуры.EnumValue.Услуга</value>
+    </value>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
