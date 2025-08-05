@@ -193,6 +193,7 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_Удержания.НДФЛ</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

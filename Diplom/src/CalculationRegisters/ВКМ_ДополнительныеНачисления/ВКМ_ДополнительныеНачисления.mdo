@@ -110,6 +110,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="d81e8786-977a-432b-8c97-3e2bfc836511">
     <name>Сумма</name>
     <synonym>

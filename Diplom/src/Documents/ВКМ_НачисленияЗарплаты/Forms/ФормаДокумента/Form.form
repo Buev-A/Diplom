@@ -264,6 +264,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Начисления.ДатаОкончания</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>НачисленияДатаОкончанияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>НачисленияДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>
