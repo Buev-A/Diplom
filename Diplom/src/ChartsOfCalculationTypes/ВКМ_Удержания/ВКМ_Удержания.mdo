@@ -88,8 +88,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</baseCalculationTypes>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <standardTabularSections>
     <name>BaseCalculationTypes</name>
     <synonym>
@@ -193,7 +194,10 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
-      <base>ChartOfCalculationTypes.ВКМ_Удержания.НДФЛ</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПроцентЗаВыполненныеРаботы</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

@@ -70,6 +70,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
