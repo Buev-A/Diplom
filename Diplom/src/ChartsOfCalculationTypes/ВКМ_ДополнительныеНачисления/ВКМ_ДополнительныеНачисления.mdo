@@ -89,6 +89,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <standardTabularSections>
     <name>BaseCalculationTypes</name>
